@@ -1,0 +1,55 @@
+html {
+    background-image: url("../img/shards_pattern.jpg");
+
+}
+
+.video-player{
+    position: relative;
+    background-color: black;
+    width: 600px;
+    height: 400px;
+
+    border: 1px solid black;
+}
+
+.video-player__video{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 6px 4px 2px 2px black;
+}
+
+.video-players__controls{
+    height: 50px;
+    width: 600px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 350px;
+    border: 1px solid black;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.05;
+    box-shadow: 4px 2px 2px 6px black;
+
+}
+.video-player:hover .video-players__controls{
+    opacity: 0.85;
+}
+
+.video-players__controls > i {
+    font-size: 50px;
+}
+
+.fa-play-circle-o{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa-pause-circle-o{
+    padding-right: 423px;
+}
+
+.fa-volume-up{
+    padding-right: 15px;
+}
